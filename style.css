@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(./bg\ form.avif) no-repeat center center fixed;
+    background-size: cover;
+}
+.container{
+  
+    color: white;
+    position: absolute;
+    top: 38%;
+    left: 43%;
+}
+.container h1{
+    width: 50%;
+    display: inline-block;
+    font-size: 40px;
+    border-bottom: 5px solid peru;
+    margin-bottom: 15px;
+    padding: 13px 0;
+    text-align: center;
+}
+
+.box{
+    width: 100%;
+    border-bottom: 1px solid peru;
+    margin:  20px 0 ;
+   
+}
+.box i{
+    width: 25px;
+  
+    text-align: center;
+}
+.box input{
+    background: none;
+
+    width: 75%;
+  
+    padding: 5px 5px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 20px;
+}
+.btn{
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+    margin: 12px 0;
+    padding: 10px 21px;
+    border-radius: 10px;
+    border: 2px solid peru;
+    font-size: 18px;
+    background: none;
+    color: white;
+    font-weight: bold;
+}
+.btn:hover{
+    background: white;
+    color: peru;
+   
+}
